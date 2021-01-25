@@ -1,0 +1,19 @@
+Study Drill
+
+1) The error is in 14th line
+
+ex4.rb:14: undefined local variable or method `carpool_capacity' for
+    main:Object (NameError)
+
+The variable 'carpool_capacity' is expected to print as per 14 line. 
+But the variable had no value as it was not assigned with any value
+
+This line would have been missed: 
+carpool_capacity = cars_driven * space_in_a_car
+
+2) I used 4.0 for space_in_a_car, but is that necessary? What happens if it's just 4?
+
+Not necessary as the seats in a car, will always be a whole number.
+It can be as 4
+
+
